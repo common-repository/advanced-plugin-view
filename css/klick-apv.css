@@ -1,0 +1,539 @@
+/* First Tab */
+.klick-apv-data {
+    display: inline-block;
+    width: 20%;
+    float: left;
+    background: #F68D22;
+    padding: 20px;
+    margin: 0 20px 0 0;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.klick-apv-data h2 {
+    color: #F68D22;
+    display: inline-block;
+    margin-top: 0;
+    width: 100%;
+    background: #034378;
+    padding: 9px;
+    box-sizing: border-box;
+}
+
+/* Tab wrapper  */
+.klick-apv-tab-wrap .nav-tab-wrapper {
+ margin: 14px 0px; 
+ border-bottom: 1px solid #ccc;
+}
+.info{
+	color: #0073aa;
+	font-weight: bold;
+}
+
+#message_lbl{
+	color: #F5821F;
+}
+#klick_apv_table_url{
+	color : #1F4F7B;
+	font-weight:  bold;
+	font-size: 25px;
+}
+
+#klick_apv_nav_tab_wrapper .dashicons{
+    color: #F5821F;
+}
+/*Log Listing Third tab*/
+.klick-apv-log-listing{
+	display: block;
+}
+.klick-apv-log-listing *{
+	box-sizing: border-box;
+}
+.klick-apv-log-listing > h1{
+	border-radius: 3px 3px 0 0;
+	background: #fff;
+	position: relative;
+	border-bottom: 1px solid #dfdfdf;
+	height: 38px;    	
+	margin: 0;
+    padding: 0px 10px;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 38px;
+    color: #333;
+    text-shadow: 0px 1px 0px #fff;
+    text-align: left;
+    width: 100%;
+    display: inline-block;
+}
+.klick-apv-log-listing-wrap{
+	width: 100%;
+	display: inline-block;
+	background: #fff;
+	padding: 15px;
+	max-height: 500px;
+	overflow: auto;
+}
+.klick-apv-log-listing-row{
+	border: 1px solid #dedede;
+	margin-top: 20px;
+}
+.klick-apv-log-listing-row:first-child{
+	margin-top: 0;
+}
+.klick-apv-log-listing-row h1{
+    margin: 0;
+    padding: 0 0px;
+    border-bottom: 1px solid #dedede;
+    background: #f2f2f2;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 34px;
+    color: #333;
+}
+.klick-apv-log-listing-row h1 time{
+    float: right;
+    font-size: 12px;
+    color: #555;
+}
+.klick-apv-log-listing-row h4{
+	font-size: 11.5px;
+    margin: 20px 0 -5px 10px;
+    color: #444;
+    text-transform: uppercase;
+}
+.klick-apv-log-listing-row ul{
+	list-style: square;
+    padding: 0 0 0 15px;
+	margin: 10px 0 0 15px;
+	color: #777;
+}
+
+/*Plugin List Second tab*/
+.klick-apv-plugin-list{
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+.klick-apv-plugin-list *{
+	box-sizing: border-box;
+}
+.klick-apv-plugin-list li{
+    width: auto;
+    float: left;
+    background: #F1F1F1;
+    padding: 15px;
+    border: 1px solid #CCCCCC;
+    margin: 0 10px 20px;
+    text-align: center;
+}
+.klick-apv-plugin-list li h4{
+	margin: 5px 0 0 0;
+}
+
+/*Custom Button*/
+.wp-core-ui .button.klick_btn,.wp-core-ui .button.klick_btn:hover,.wp-core-ui .button.klick_btn:active,.wp-core-ui .button.klick_btn:focus{
+    font-size: 14px!important;
+    height: 46px!important;
+    line-height: 44px!important;
+    padding: 0 36px!important;
+    background: #F5821F!important;
+    color: #fff!important;
+    border-color: #f4780b #f4780b #c36009!important;
+    -webkit-box-shadow: 0 1px 0 #f4780b !important;
+	box-shadow: 0 1px 0 #f4780b !important;
+    text-shadow: 0 -1px 1px #f4780b,1px 0 1px #f4780b,0 1px 1px #f4780b,-1px 0 1px #f4780b!important;
+}
+.wp-core-ui .button.klick_btn:disabled,.wp-core-ui .button.klick_btn[disabled]{
+    opacity: 0.5;
+}
+
+/* First 3 tabs */
+.klick-apv-data-listing-wrap{
+    width: 98%;
+    display: inline-block;
+    background: #fff;
+    padding: 15px;
+    max-height: 500px;
+    overflow: auto;
+}
+.klick-apv-data-listing-row{
+    border: 1px solid #dedede;
+    margin-top: 20px;
+}
+.klick-apv-data-listing-row:first-child{
+    margin-top: 0;
+}
+.klick-apv-data-listing-row h1{
+    margin: 0;
+    padding: 0 0px;
+    border-bottom: 1px solid #dedede;
+    background: #f2f2f2;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333;
+    min-height: 30px;
+}
+.klick-apv-info{
+    padding-left: 5px;
+}
+/* ajax loader */
+.klick-apv-data-container{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+
+}
+.klick-apv-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    text-align: center;
+}
+.loading-image{
+    position: absolute;
+    top: 0;
+    margin: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.klick-apv-data-box{
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    background: #fff;
+    padding: 15px;
+    position: relative;
+}
+.klick-apv-data-table h1{
+    margin: 10px 0 30px;
+    vertical-align: top;
+    display: inline-block;
+}
+.klick-apv-data-table .klick-apv-add-btn{
+    float: right;
+}
+.klick-apv-data-table table.widefat{
+    border: 0;
+}
+.klick-apv-data-table table tbody {
+    display:block;
+    max-height:500px;
+    overflow:auto;
+}
+.klick-apv-data-table table thead,.klick-apv-data-table table tbody tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;
+}
+.klick-apv-data-table .klick-apv-edit-row span,.klick-apv-data-table .klick-apv-delete-row span{
+    padding: 5px 3px;
+    cursor: pointer;
+    -webkit-transition: all 0.35s ease 0s;
+       -moz-transition: all 0.35s ease 0s;
+        -ms-transition: all 0.35s ease 0s;
+         -o-transition: all 0.35s ease 0s;
+            transition: all 0.35s ease 0s;
+}
+.klick-apv-data-table .klick-apv-edit-row span:hover{
+    color: #0073aa;
+}
+.klick-apv-data-table .klick-apv-delete-row span:hover{
+    color: red;
+}
+.klick-apv-data-table table tbody tr td .apv-table-content{
+    height: 150px;
+    overflow: auto;
+    min-height: 20px;
+}
+.klick-apv-data-table table thead th{
+    font-weight: 500;
+    color: #fff!important;
+    background: #063B6D;
+}
+#klick_apv_add_plugin ul{
+    padding: 0;
+    margin: 0;
+}
+#klick_apv_add_plugin ul li{
+    margin-bottom: 15px;
+}
+#klick_apv_add_plugin ul li label{
+    width: 100px;
+    float: left;
+    margin-right: 15px;
+    font-weight: 500;
+}
+#klick_apv_add_plugin ul li .apv-list-label-content{
+    display: block;
+    overflow: hidden;
+    max-width: 700px;
+}
+@media screen and (max-width: 1440px){
+    .klick-apv-data-table table tbody{
+        max-height: 300px;
+    }
+}
+@media screen and (max-width: 782px){
+    .klick-apv-data-table table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+    .klick-apv-data-table .wp-list-table tbody tr:not(.inline-edit-row):not(.no-items) td:not(.column-primary){
+        padding-left: 130px;
+        min-height: 20px;
+        text-align: left!important;
+    }
+    .klick-apv-data-table .wp-list-table tbody tr:not(.inline-edit-row):not(.no-items) td:not(.column-primary)::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+        width: 110px!important;
+        text-align: left;
+    }
+}
+@media screen and (max-width: 500px){
+    #klick_apv_add_plugin ul li{
+        margin-bottom: 5px;
+    }
+    #klick_apv_add_plugin ul li label{
+        width: 100%;
+        margin: 0 0 4px;
+    }
+    #klick_apv_add_plugin ul li .apv-list-label-content{
+        width: 100%;
+        display: inline-block;
+    }
+    #klick_apv_add_plugin ul li .apv-list-label-content input,#klick_apv_add_plugin ul li .apv-list-label-content textarea{
+        width: 99%;
+        box-sizing: border-box;
+    }
+}
+
+.chart-container{
+    height: 300px;
+}
+
+.download-loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.ratings-list {
+    list-style-type: none;
+    margin: 16px 0;
+    margin: 1rem 0;
+    padding: 0;
+    width: 100%;
+}
+
+.ratings-list .counter-container, .ratings-list .counter-container a {
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.ratings-list .counter-label {
+    display: inline-block;
+    min-width: 65px;
+}
+
+.ratings-list .counter-back {
+    background-color: #ececec;
+    width: 58%;
+    width: -webkit-calc(100% - 130px);
+    width: calc(100% - 130px);
+    height: 1rem;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.ratings-list .counter-bar {
+    background-color: #ffc733;
+    display: block;
+    height: 1rem;
+    }
+
+.ratings-list .counter-count {
+        margin-left: 3px;
+}    
+
+.apv-overlay{
+    display: none;
+}
+
+.apv-list-table .klick-apv-row-container{
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 2px;
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+.apv-list-table .klick-apv-row-container .apv-overlay{
+    position: relative;
+}
+.apv-list-table .klick-apv-row-container > span.klick-apv-delete-row{
+    float: left;
+}
+.apv-list-table .klick-apv-row-container > span > a{
+    text-decoration: none;
+    color: #F5821F;
+    font-weight: 500;
+}
+.klick-apv-row-left{
+    float: left;
+    width: 66%;
+}
+.klick-apv-row-right{
+    float: right;
+    width: 33%;
+}
+.klick-apv-row-widget{
+    border: 1px solid rgba(0, 0, 0,0.1);
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+    padding: 15px;
+    margin: 0 0 15px;
+}
+.klick-apv-row-widget h4{
+    margin: 0 0 15px;
+}
+.klick-apv-row-widget-50{
+    margin: 0 7.5px 15px;   
+    width: calc(50% - 15px);
+}
+.klick-apv-row{
+    display: block;
+    margin: 0 -7.5px;
+}
+.contributors-list li{
+    width: 50%;
+    float: left;
+}
+.contributors-list li img{
+    width: 50px;
+    height: 50px;
+    border-radius: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    float: left;
+}
+.contributors-list li a{
+    display: inline-block;
+    vertical-align: middle;
+    display: block;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #333;
+    -webkit-transition: all 0.35s ease 0s;
+       -moz-transition: all 0.35s ease 0s;
+        -ms-transition: all 0.35s ease 0s;
+         -o-transition: all 0.35s ease 0s;
+            transition: all 0.35s ease 0s;
+}
+.contributors-list li a:hover{
+    color: #F5821F;
+}
+.wporg-ratings .dashicons{
+    font-size: 40px;
+    width: 40px;
+    height: 40px;
+    color:#ffb900;
+}
+#details_summary span,#download_summary span{
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+}
+#details_summary span.tags a{
+    background: #EEEEEE;
+    color: #333;
+    font-size: 12px;
+    text-align: center;
+    padding: 2px 5px;
+    border-radius: 2px;
+    display: inline-block;
+    margin-right: 5px;
+    text-decoration: none;
+}
+.apv-list-table .klick-apv-row-container .details-link-close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: auto;
+    width: auto;
+    font-size: 26px;
+}
+.details-link-close:hover{
+    cursor: pointer;
+}
+.klick-our-other-logo img{
+    max-width: 100%;
+}
+.wrap .klick-apv-log-listing-row h1{
+   margin: 0;
+   padding: 0 0px;
+   border-bottom: 1px solid #dedede;
+   background: #f2f2f2;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 34px;
+   color: #333 
+}
+
+@media screen and (max-width: 1300px){
+    .contributors-list li{
+        width: 100%;
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 800px){
+    .klick-apv-row-left,.klick-apv-row-right{
+        width: 100%;
+    }
+    .contributors-list li{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 600px){
+    .klick-apv-row-widget-50{
+        width: calc(100% - 15px);
+    }
+    .contributors-list li{
+        width: 100%;
+    }
+}
